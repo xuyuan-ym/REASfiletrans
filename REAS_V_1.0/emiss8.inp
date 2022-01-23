@@ -1,0 +1,55 @@
+&control
+anthro_dir='/home/wang/ANTHRO/EDGARmonthly'
+src_file_prefix='EDGARv4.3.2-monthly_Glb_0.1x0.1_anthro_'
+src_file_suffix='__monthly.nc'
+src_names='co2(44)','ch4(16)','co(28)','nox(30)',
+          'so2(64)', 'bc(12)','oc(12)','nh3(17)',
+          'voc20(50.49)','voc2(30)','voc3(44)',
+          'c2h4(28)','voc8(42)',
+          'voc9(26)','voc1(46)',
+          'voc21(30)','voc13(78)',
+          'voc14(92)','voc15(106)',
+          'voc10(68)','voc11(136)',
+          'htappm10(1)','htappm25(1)'
+          'voc4(58)','voc5(72)','voc6(86)','voc18','voc19(74)',
+          'voc12',         
+          'voc22',
+          'voc23',
+cat_var_prefix=' '
+sub_categories='emi_sum','emi_sum','emi_sum','emi_sum',
+          'emi_sum','emi_sum','emi_sum','emi_sum',
+          'emi_sum','emi_sum','emi_sum',
+          'emis_tot','emi_sum',
+          'emi_sum','emi_sum',
+          'emi_sum','emi_sum',
+          'emi_sum','emi_sum',
+          'emi_sum','emi_sum',
+          'emis_tot','emis_tot'
+          'emi_sum','emi_sum','emi_sum','emi_sum','emi_sum',
+          'emi_sum',
+          'emi_sum',
+          'emi_sum',
+emis_map='CO2->co2(emi_sum)','CH4->ch4(emi_sum)','CO->co(emi_sum)',
+         'NO->0.8*nox(emi_sum)','NO2->0.2*nox(emi_sum)','SO2->so2(emi_sum)','ECI(a)->0.2*bc(emi_sum)',
+         'ECI(J)->0.8*bc(emi_sum)','ORGI(a)->0.2*oc(emi_sum)',
+         'ORGJ(a)->0.8*oc(emi_sum)','NH3->nh3(emi_sum)',
+          'CH3CL->voc20(emi_sum)','C2H6->voc2(emi_sum)','C3H8->voc3(emi_sum)',
+         'C2H4->c2h4(emis_tot)','C3H6->voc8(emi_sum)',
+         'C2H2->voc9(emi_sum)','C2H5OH->voc1(emi_sum)',
+         'CH2O->voc21(emi_sum)','BENZENE->voc13(emi_sum)',
+          'TOLUNE->voc14(emi_sum)','XYLENE->voc15(emi_sum)',
+          'ISOPRENE->voc10(emi_sum)','C10H16->voc11(emi_sum)',
+          'PM10->htappm10(emis_tot)','PM25->htappm25(emis_tot)'
+          'BIGALK->voc4(emi_sum)+voc5(emi_sum)+voc6(emi_sum)+voc18(emi_sum)+voc19(emi_sum)',
+          'BIGENE->voc12(emi_sum)',
+          'CH3CHO->voc22(emi_sum)',
+          'CH3COCH3->0.2*voc23(emi_sum)',
+          'MEK->0.8*voc23(emi_sum)',
+          'SULF->0.0*so2(emi_sum)'
+emissions_zdim_stag=25
+serial_output = .True.
+start_output_time='2010-02-01_00:00:00'
+stop_output_time='2010-02-28_00:00:00'
+output_interval=21600
+domains =2
+/

@@ -1,0 +1,11 @@
+&control
+dir_reas='/home/wang/REAS'
+sub_dir='/REAS_data_2011/'
+prefix='REASv3.2_'
+suffix='_TOTAL_2011_0.25x0.25'
+spc_map='BC_','CO_','CO2-BF',
+        'NH3'
+emiss_map='BC_->reasbc(12','CO_->reasco(38','CO2-BF->reasco2bf(44',
+        'NH3->reasnh3'
+year=2011
+/

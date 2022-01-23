@@ -1,0 +1,26 @@
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1HE325: ATTENTION
+Found a swap file by the name ".REASv1.swp"
+[10Cowned by: wang   dated: Mon Dec 20 10:02:54 2021
+[9Cfile name: ~wang/REAS_V_1.0/REASv1
+[10Cmodified: YES
+[9Cuser name: wang   host name: student204
+[8Cprocess ID: 45674 (still running)
+While opening file "REASv1"
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r REASv1"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".REASv1.swp"
+    to avoid this message.
+
+Swap file ".REASv1.swp" already exists!
+[O]pen Read-Only, (E)dit anyway, (R)ecover, (Q)uit, (A)bort:[?12l[?25h[24;1H[K[?25l[24;1H"REASv1" [New File][2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[?1049h[?1h[[?12;25h[?1[?12;25h[?12l[?25h[27m[m[H[2J[?25l[2;1H[94m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?12l[?25h[24;1H[?1l>[?1049lVim: Caught deadly signal HUP
+Vim: Finished.
+[24;1Hg files...
+Vim: Finished.
+[24;1H;1H[?1l>[?1049lVim: Caught deadly signal HUP
+Vim: Finished.
+[24;1H
